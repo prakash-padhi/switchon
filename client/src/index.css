@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Gilroy-Medium";
+    font-style: normal;
+    src: local("Gilroy-Medium"),
+      url("assets/fonts/Gilroy-Medium.woff2") format("woff2");
+      /* url('../fonts/open-sans-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+  
+  @font-face {
+    font-family: "Gilroy-Bold";
+    font-style: normal;
+    src: local("Gilroy-Bold"),
+        url("assets/fonts/Gilroy-Bold.woff2") format("woff2"); /* Super Modern Browsers */
+  }
+  
+  @font-face {
+    font-family: "Gilroy-SemiBold";
+    font-style: normal;
+    src: local("Gilroy-SemiBold"),
+        url("assets/fonts/Gilroy-SemiBold.woff2") format("woff2"); /* Super Modern Browsers */
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Gilroy-Medium" !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .popover {
+    font-family: "Gilroy-Medium" !important;
+  }
+  
+  .fw-700 {
+    font-family: "Gilroy-Bold" !important;
+  }
+  
+  .fw-600 {
+    font-family: "Gilroy-SemiBold" !important;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  

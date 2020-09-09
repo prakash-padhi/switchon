@@ -1,0 +1,46 @@
+#navBar__wrapper nav.navbar {
+	border-radius: 4px;
+}
+
+#navBar__wrapper .nav-link {
+	color: #FFFFFF;
+}
+
+.Landing__Form-Wrapper {
+	max-width: 50%;
+	margin: 30px auto;
+}
+
+#userLogin,
+#userRegister {
+	max-width: 90%;
+	margin: 0 auto;
+}
+.in-out {
+	font-size: 0.85em;
+}
+.Return__To {
+	cursor: pointer;
+	background-color: black;
+	color: #FFFFFF;
+	border-radius: 4px;
+	padding: 2px 8px;
+}
+.not_foundPageLogo {
+	width: 100%;
+}
+
+.nav-tabs .nav-item .nav-link {
+	padding: 1rem;
+	cursor: pointer;
+}
+
+.alert-popover .popover-body {
+	padding: 0 !important;
+}
+
+@media (max-width: 767px) {
+	.Landing__Form-Wrapper {
+		max-width: 100%;
+	}
+}

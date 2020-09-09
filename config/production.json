@@ -1,0 +1,5 @@
+{
+    "dbURL": "mongodb+srv://prakash:Prakash@123@cluster0.urkjz.mongodb.net/switchon?retryWrites=true&w=majority",
+    "dbLocalURL": "mongodb://localhost:27017/switchon",
+	"JWTKEY": "mysecretjwt"
+}
